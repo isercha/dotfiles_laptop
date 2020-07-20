@@ -1,0 +1,24 @@
+[KFileDialog Settings]
+Recent Files[$e]=orfoia6fvsw21.png,file:$HOME/Pictures/NuFVbLW.jpg,file:$HOME/Pictures/orfoia6fvsw21.png,file:$HOME/Pictures/fDCacl.png,file:$HOME/Pictures/mr-robot-quotes-1920x1200.jpg,file:$HOME/Pictures/evil-corp-qhd-1920x1200.jpg,file:$HOME/Pictures/wallpapersden.com_small-memory_1920x1080.jpg,file:$HOME/Pictures/wallpapersden.com_eagle-mountain-sunset-minimalist_1920x1080.jpg
+Recent URLs[$e]=file:$HOME/Pictures/
+detailViewIconSize=0
+
+[PlasmaRunnerManager]
+LaunchCounts=2 services_keys.desktop,1 services_standard_actions.desktop,1 services_torbrowser.desktop,6 services_com.gexperts.Tilix.desktop
+pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
+
+[PlasmaViews][Panel 2]
+alignment=132
+panelVisibility=0
+
+[PlasmaViews][Panel 2][Defaults]
+thickness=48
+
+[PlasmaViews][Panel 2][Horizontal1920]
+thickness=48
+
+[ScreenConnectors]
+0=eDP-1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js

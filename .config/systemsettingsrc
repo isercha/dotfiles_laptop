@@ -1,0 +1,17 @@
+[DownloadDialog Settings]
+Height 720=479
+Width 1280=699
+
+[KFileDialog Settings]
+Recent Files[$e]=wm.sh,file:$HOME/Pictures/NuFVbLW.jpg,file:$HOME/Pictures/wallpapersden.com_small-memory_1920x1080.jpg,file:$HOME/Pictures/orfoia6fvsw21.png,file:$HOME/Scripts/wm.sh
+Recent URLs[$e]=file:$HOME/Pictures/
+detailViewIconSize=0
+
+[MainWindow]
+Height 1080=700
+Height 720=645
+Height 864=700
+Width 1280=1032
+Width 1536=1024
+Width 1920=1024
+Window-Maximized 1080x1920=true

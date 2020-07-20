@@ -1,0 +1,90 @@
+# vim: set et fenc=utf-8 ft=conf sts=4 sw=4 ts=8 tw=80 :
+#
+# Author: microfracture / https://linuxious.com
+# Updated: 2016-08-22
+
+
+# i3blocks config file
+#
+# Please see man i3blocks for a complete reference!
+# The man page is also hosted at http://vivien.github.io/i3blocks
+#
+# List of valid properties:
+#
+# align
+# color
+# background
+# border
+# command
+# full_text
+# instance
+# interval
+# label
+# min_width
+# name
+# separator
+# separator_block_width
+# short_text
+# signal
+# urgent
+
+# Global properties
+#
+# The top properties below are applied to every block, but can be overridden.
+# Each block command defaults to the script name to avoid boilerplate.
+
+# Archlinux
+#command=/usr/lib/i3blocks/$BLOCK_NAME
+
+# Debian
+command=/home/ross/bin/$BLOCK_NAME
+
+full_text=〉
+align=center
+#color=#666666
+separator=false
+separator_block_width=15
+markup=none
+
+[bandwidth]
+instance=wlp0s20f3
+interval=5
+
+[wifi]
+label=📡
+instance=wlp0s20f3
+interval=10
+separator=false
+
+[cpu_usage]
+label=💻
+interval=10
+
+
+[temperature]
+label=🌡­
+interval=10
+
+
+[volume]
+label=🔊
+instance=Master
+interval=once
+signal=10
+
+
+[battery]
+label=🔋
+interval=5
+
+
+[time]
+command=date "+%a, %b %_d %Y %I:%M%P"
+interval=5
+
+# Guess the weather hourly
+[weather]
+command=weather-util fips0120008 |grep Temper|cut -d ':' -f 2
+interval=3600
+color=#A4C2F4
+

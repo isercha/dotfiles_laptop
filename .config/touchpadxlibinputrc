@@ -1,0 +1,5 @@
+[CUST0001:00 06CB:CD98 Touchpad]
+naturalScroll=true
+pointerAcceleration=0.4
+tapAndDrag=false
+tapToClick=true
